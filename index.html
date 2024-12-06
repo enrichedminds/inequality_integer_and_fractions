@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparing Numbers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparing Numbers</h1>
+        <div id="menu">
+            <p>Select the type of comparison:</p>
+            <button id="compareIntegers" class="btn">Compare Integers</button>
+            <button id="compareFractions" class="btn">Compare Fractions</button>
+        </div>
+        <div id="exerciseContainer" class="hidden">
+            <div id="exercise" class="exercise">
+                <div id="num1" class="fraction"></div>
+                <select id="operator">
+                    <option value="<">&lt;</option>
+                    <option value=">">&gt;</option>
+                    <option value="=">=</option>
+                </select>
+                <div id="num2" class="fraction"></div>
+            </div>
+            <button id="submit">Submit Answer</button>
+            <button id="nextExercise">Next Exercise</button>
+            <div id="feedback" class="feedback"></div>
+            <button id="back" class="btn">Back to Main Menu</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
